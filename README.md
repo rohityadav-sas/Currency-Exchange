@@ -2,6 +2,7 @@
 A dynamic React-based currency exchange application that empowers users to effortlessly convert currencies with up-to-date exchange rates. Built with modern web technologies like Vite, Bun, and Tailwind CSS, this project exemplifies efficient state management and seamless API integration for a smooth user experience.
 
 ## Table of Contents
+- [Preview](#preview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -10,6 +11,11 @@ A dynamic React-based currency exchange application that empowers users to effor
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Preview
+
+![preview.png](./src/assets/preview.png?raw=true)
+
 
 ## Features
 - **Real-time Currency Conversion**: Convert between multiple currencies using live exchange rates.
