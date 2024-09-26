@@ -2,6 +2,7 @@ import CurrencyComponent from "./CurrencyComponent";
 import ConvertButton from "./ConvertButton";
 import useCurrencyInfo from "../hooks/useCurrencyInfo";
 import { useCurrency } from "../context/CurrencyContext";
+import Spinner from "./Spinner";
 
 export default function Index() {
     const { fromCurrency } = useCurrency();
@@ -11,7 +12,7 @@ export default function Index() {
     const currencyList = exchangeRates ? Object.keys(exchangeRates) : [];
 
     if (error) return <div>Error: {error}</div>;
-    if (!exchangeRates) return <div className="text-white text-7xl">Loading...</div>;
+    if (!exchangeRates) return <Spinner />;
 
     return (
         <div className="flex font-bold font-mono flex-col gap-6 border-2 rounded-xl px-12 py-10 backdrop-blur-sm bg-slate-400 bg-opacity-30 shadow-[0_0px_20px_15px_rgba(0,0,0,0.3),_inset_0_0px_20px_5px_rgba(0,0,0,0.3)]">
