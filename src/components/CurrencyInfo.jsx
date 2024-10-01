@@ -8,7 +8,7 @@ export default function CurrencyInfo({ label, amount = 0, setAmount = null, curr
     )), [currencyList]);
 
     return (
-        <div className="flex text-gray-400 font-bold font-mono bg-white flex-col w-96 border-2 p-4 rounded-xl">
+        <div className="flex text-gray-400 font-bold font-mono bg-white flex-col w-80 sm:w-88 md:w-96 border-2 p-4 rounded-xl">
             <div className="flex justify-between">
                 <div>{label}</div>
                 <div>Currency Type</div>
