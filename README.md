@@ -1,5 +1,5 @@
 # Currency Exchange App
-A simple React-based currency converter app that helps users easily convert currencies with real-time exchange rates. Built using modern tools like Vite, Bun, and Tailwind CSS, it focuses on efficient state management and smooth API integration to provide a seamless user experience.
+A fully responsive React-based currency converter app designed for effortless currency conversion with real-time exchange rates. Leveraging modern tools like Vite, Bun, and Tailwind CSS, it ensures optimized state management and smooth API integration, delivering a fast and seamless experience on all device sizes.
 
 ## Table of Contents
 - [Preview](#preview)
