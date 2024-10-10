@@ -4,11 +4,8 @@ A fully responsive React-based currency converter app designed for effortless cu
 ## Table of Contents
 - [Preview](#preview)
 - [Features](#features)
-- [Dependencies](#dependencies)
 - [Installation](#installation)
-- [Usage](#usage)
-- [API](#api)
-- [Deployment](#deployment)
+- [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -24,6 +21,34 @@ A fully responsive React-based currency converter app designed for effortless cu
 
 - **Currency Swap**: Easily switch between the source and target currencies.
 
+
+### Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/rohityadav-sas/Currency-Exchange.git
+    ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd Currency-Exchange
+   ```
+
+3. Create a `.env` file in the root directory and add your API key:
+   ```sh
+    VITE_API_KEY=your_api_key_here
+   ```
+
+4. Install dependencies
+    ```bash
+    bun install
+    ```
+
+5. Start the server and navigate to `localhost:5173` in your browser to see the app in action.
+    ```bash
+    bun dev
+    ```
+
 ## Dependencies
 - **React**: JavaScript library for building user interfaces.
 
@@ -34,41 +59,6 @@ A fully responsive React-based currency converter app designed for effortless cu
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 
 - **ExchangeRate API**: For fetching real-time currency exchange rates.
-
-## Installation
-To get started with this project, clone the repository and install the dependencies:
-
-   ```sh
-   git clone https://github.com/rohityadav-sas/Currency-Exchange.git
-
-   cd Currency-Exchange
-   
-   bun install
-   ```
-
-## Environment Variables
-Create a .env file in the root directory and add your API key:
-
-```sh
-VITE_API_KEY=your_api_key_here
-```
-
-## Usage
-To run the application in development mode, use:
-
-```bash
-bun run dev
-```
-
-Navigate to `localhost:5173` in your browser to see the app in action.
-
-## API
-This app uses the `ExchangeRate API` to fetch currency exchange rates. Make sure to sign up and get your API key.
-
-## Deployment
-```bash
-bun run deploy
-```
 
 ## License
 
