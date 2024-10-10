@@ -4,7 +4,7 @@ A fully responsive React-based currency converter app designed for effortless cu
 ## Table of Contents
 - [Preview](#preview)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
+- [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [API](#api)
@@ -24,7 +24,7 @@ A fully responsive React-based currency converter app designed for effortless cu
 
 - **Currency Swap**: Easily switch between the source and target currencies.
 
-## Technologies Used
+## Dependencies
 - **React**: JavaScript library for building user interfaces.
 
 - **Vite**: Next-generation frontend tooling.
